@@ -1,20 +1,17 @@
-#ifndef __RUTINA_H__
-#define __RUTINA_H__
+#ifndef RUTINA_H
+#define RUTINA_H
 
-#include "Utiles.h"
 #include "Instruccion.h"
 
-class Rutina 
-{
-    public:
-        Rutina(Id id, Instrucciones instrucciones);
-
-        /* pongo la funcion como estatica porque c++ me dice que lo haga cuando la uso en PROGRAMA.cpp */
-        Instrucciones static devolverInstrucciones(Id id);
-
-    private:
-        Id _id;
-        Instrucciones _instrucciones;
+class Rutina {
+public:
+    Rutina(Id id, vector<Instruccion> instrucciones);
+    vector<Instruccion> devolverInstrucciones() const;
+    Id devolverId() const ;
+    void agregarInstruccion(Instruccion instruccion);
+private:
+    Id _id;
+    vector<Instruccion> _instrucciones;
 };
 
 #endif

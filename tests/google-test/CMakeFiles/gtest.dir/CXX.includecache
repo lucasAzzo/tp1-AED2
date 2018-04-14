@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/lucas/TP1-AED2/tests/google-test/src/gtest-all.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/gtest-all.cc
 gtest/gtest.h
-/home/lucas/TP1-AED2/tests/google-test/src/gtest/gtest.h
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/gtest/gtest.h
 src/gtest.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-death-test.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-filepath.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-port.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-printers.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-test-part.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/lucas/TP1-AED2/tests/google-test/src/src/gtest-typed-test.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/src/gtest-typed-test.cc
 
 tests/google-test/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

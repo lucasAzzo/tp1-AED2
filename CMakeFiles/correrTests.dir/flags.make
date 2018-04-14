@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lucas/TP1-AED2/tests/google-test/include 
+CXX_INCLUDES = -I/home/enzo/CLionProjects/TP1-AED2/tests/google-test/include 
 

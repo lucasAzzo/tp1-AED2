@@ -1,28 +1,51 @@
 #include "Programa.h"
 
-void Programa::agregarInstruccion(Id idRutina, Instruccion instruccion) {
-    /* falta ver como incluir instruccion aca y ver si la instruccion existe o no  */
-    Rutina r(idRutina, instruccion);
-    Rutinas.push_back(r);
+Programa::Programa() {
+    _rutinas = {};
 }
 
-bool Programa::esRutinaExistente(Id idRutina) const{
-    /* falta terminar */
-    bool result = false;
-    if (){
-        return true;
+void Programa::agregarInstruccion(Id idRutina, Instruccion instruccion) {
+    if (esRutinaExistente(idRutina))
+    {
+        int i = 0;
+        while (i < _rutinas.size() && _rutinas[i].devolverId() != idRutina)
+            i++;
+        _rutinas[i].agregarInstruccion(instruccion);
     }
+    else
+    {
+        vector<Instruccion> instrucciones;
+        instrucciones.push_back(instruccion);
+        Rutina nuevaRutina = Rutina(idRutina, instrucciones);
+        _rutinas.push_back(nuevaRutina);
+    }
+}
+
+bool Programa::esRutinaExistente(Id idRutina) const {
+    bool result = false;
+    int i = 0;
+    while (i < _rutinas.size() && _rutinas[i].devolverId() != idRutina)
+        i++;
+    if (i < _rutinas.size())
+        result = true;
     return result;
 }
 
 int Programa::longitud(Id idRutina) const {
-    int contador = 0;
-    for (int i = 0; i < Rutina::devolverInstrucciones(idRutina).size(); ++i) {
-        contador++;
-    }
-    return contador;
+    int i = 0;
+    while (i < _rutinas.size() && _rutinas[i].devolverId() != idRutina)
+        i++;
+    const int result = (const int)this->_rutinas[i].devolverInstrucciones().size();
+    return result;
 }
 
+
 Instruccion Programa::instruccion(Id idRutina, int i) const {
-    return Rutina::devolverInstrucciones(idRutina)[i];
+    int j = 0;
+    while (j < _rutinas.size() && _rutinas[j].devolverId() != idRutina)
+        j++;
+    Instruccion result = _rutinas[j].devolverInstrucciones()[i];
+    return result;
 }
+
+

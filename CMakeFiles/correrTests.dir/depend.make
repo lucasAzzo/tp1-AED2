@@ -5,6 +5,10 @@ CMakeFiles/correrTests.dir/src/Instruccion.cpp.o: src/Instruccion.cpp
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.o: src/Instruccion.h
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.o: src/Utiles.h
 
+CMakeFiles/correrTests.dir/src/Pila.cpp.o: src/Pila.cpp
+CMakeFiles/correrTests.dir/src/Pila.cpp.o: src/Pila.h
+CMakeFiles/correrTests.dir/src/Pila.cpp.o: src/Utiles.h
+
 CMakeFiles/correrTests.dir/src/Programa.cpp.o: src/Instruccion.h
 CMakeFiles/correrTests.dir/src/Programa.cpp.o: src/Programa.cpp
 CMakeFiles/correrTests.dir/src/Programa.cpp.o: src/Programa.h
@@ -15,6 +19,9 @@ CMakeFiles/correrTests.dir/src/Rutina.cpp.o: src/Instruccion.h
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o: src/Rutina.cpp
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o: src/Rutina.h
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o: src/Utiles.h
+
+CMakeFiles/correrTests.dir/src/Utiles.cpp.o: src/Utiles.cpp
+CMakeFiles/correrTests.dir/src/Utiles.cpp.o: src/Utiles.h
 
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o: src/Instruccion.h
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o: src/Utiles.h

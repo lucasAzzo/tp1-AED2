@@ -1,6 +1,5 @@
 #include "Instruccion.h"
 
-
 Instruccion::Instruccion(Operacion operacion, int valor) {
 	_operacion = operacion;
 	_valor = valor;

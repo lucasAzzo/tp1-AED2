@@ -1,4 +1,3 @@
-/*
 #include "gtest/gtest.h"
 
 #include "../src/Instruccion.h"
@@ -69,5 +68,3 @@ TEST(test_programa, dosRutinas) {
     EXPECT_EQ(p.instruccion("B", 1).operacion(), JUMPZ);
     EXPECT_EQ(p.instruccion("B", 1).nombre(), "d");
 }
-
-*/
