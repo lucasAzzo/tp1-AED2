@@ -1,6 +1,9 @@
 #ifndef __UTILES_H__
 #define __UTILES_H__
 
+#include <vector>
+#include <string>
+
 using namespace std;
 
 typedef int Operacion;
@@ -15,6 +18,7 @@ const Operacion JUMP = 7;
 const Operacion JUMPZ = 8;
 
 typedef string Id;
-typedef vector<Instruccion> Instrucciones;
+
+typedef vector<class Instruccion> Instrucciones;
 
 #endif /*__UTILES_H__*/

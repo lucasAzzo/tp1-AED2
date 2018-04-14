@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/lazzollini/Escritorio/tp1_base/src/Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.cpp
+Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.h
+
+/home/lucas/TP1-AED2/src/Instruccion.h
 iostream
 -
 vector
 -
 Utiles.h
-/home/lazzollini/Escritorio/tp1_base/src/Utiles.h
+/home/lucas/TP1-AED2/src/Utiles.h
 
-/home/lazzollini/Escritorio/tp1_base/src/Programa.h
+/home/lucas/TP1-AED2/src/Programa.cpp
+Programa.h
+/home/lucas/TP1-AED2/src/Programa.h
+
+/home/lucas/TP1-AED2/src/Programa.h
 iostream
 -
 vector
@@ -22,23 +30,41 @@ vector
 string
 -
 Instruccion.h
-/home/lazzollini/Escritorio/tp1_base/src/Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.h
+Utiles.h
+/home/lucas/TP1-AED2/src/Utiles.h
+Rutina.h
+/home/lucas/TP1-AED2/src/Rutina.h
 
-/home/lazzollini/Escritorio/tp1_base/src/Utiles.h
+/home/lucas/TP1-AED2/src/Rutina.cpp
+Rutina.h
+/home/lucas/TP1-AED2/src/Rutina.h
 
-/home/lazzollini/Escritorio/tp1_base/tests/test_instruccion.cpp
+/home/lucas/TP1-AED2/src/Rutina.h
+Utiles.h
+/home/lucas/TP1-AED2/src/Utiles.h
+Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.h
+
+/home/lucas/TP1-AED2/src/Utiles.h
+vector
+-
+string
+-
+
+/home/lucas/TP1-AED2/tests/test_instruccion.cpp
 gtest/gtest.h
-/home/lazzollini/Escritorio/tp1_base/tests/gtest/gtest.h
+/home/lucas/TP1-AED2/tests/gtest/gtest.h
 ../src/Instruccion.h
-/home/lazzollini/Escritorio/tp1_base/src/Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.h
 
-/home/lazzollini/Escritorio/tp1_base/tests/test_programa.cpp
+/home/lucas/TP1-AED2/tests/test_programa.cpp
 gtest/gtest.h
-/home/lazzollini/Escritorio/tp1_base/tests/gtest/gtest.h
+/home/lucas/TP1-AED2/tests/gtest/gtest.h
 ../src/Instruccion.h
-/home/lazzollini/Escritorio/tp1_base/src/Instruccion.h
+/home/lucas/TP1-AED2/src/Instruccion.h
 ../src/Programa.h
-/home/lazzollini/Escritorio/tp1_base/src/Programa.h
+/home/lucas/TP1-AED2/src/Programa.h
 
 tests/google-test/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

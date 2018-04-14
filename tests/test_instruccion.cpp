@@ -1,4 +1,4 @@
-/*
+
 #include "gtest/gtest.h"
 
 #include "../src/Instruccion.h"
@@ -48,4 +48,3 @@ TEST(test_instruccion, i_jumpz) {
     EXPECT_EQ(i.nombre(), "quux");
 }
 
-*/
