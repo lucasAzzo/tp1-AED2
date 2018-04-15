@@ -6,5 +6,5 @@ CXX_FLAGS =    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-un
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/enzo/CLionProjects/TP1-AED2/tests/google-test/include -I/home/enzo/CLionProjects/TP1-AED2/tests/google-test 
+CXX_INCLUDES = -I/home/lucas/TP1-AED2/tests/google-test/include -I/home/lucas/TP1-AED2/tests/google-test 
 

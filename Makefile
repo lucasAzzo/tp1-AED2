@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enzo/CLionProjects/TP1-AED2
+CMAKE_SOURCE_DIR = /home/lucas/TP1-AED2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enzo/CLionProjects/TP1-AED2
+CMAKE_BINARY_DIR = /home/lucas/TP1-AED2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/enzo/CLionProjects/TP1-AED2
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -116,7 +116,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enzo/CLionProjects/TP1-AED2/CMakeFiles /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas/TP1-AED2/CMakeFiles /home/lucas/TP1-AED2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enzo/CLionProjects/TP1-AED2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas/TP1-AED2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,33 @@ gtest: cmake_check_build_system
 gtest/fast:
 	$(MAKE) -f tests/google-test/CMakeFiles/gtest.dir/build.make tests/google-test/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
+
+src/Calculadora.o: src/Calculadora.cpp.o
+
+.PHONY : src/Calculadora.o
+
+# target to build an object file
+src/Calculadora.cpp.o:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Calculadora.cpp.o
+.PHONY : src/Calculadora.cpp.o
+
+src/Calculadora.i: src/Calculadora.cpp.i
+
+.PHONY : src/Calculadora.i
+
+# target to preprocess a source file
+src/Calculadora.cpp.i:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Calculadora.cpp.i
+.PHONY : src/Calculadora.cpp.i
+
+src/Calculadora.s: src/Calculadora.cpp.s
+
+.PHONY : src/Calculadora.s
+
+# target to generate assembly for a file
+src/Calculadora.cpp.s:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Calculadora.cpp.s
+.PHONY : src/Calculadora.cpp.s
 
 src/Instruccion.o: src/Instruccion.cpp.o
 
@@ -330,6 +357,33 @@ src/Utiles.cpp.s:
 	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Utiles.cpp.s
 .PHONY : src/Utiles.cpp.s
 
+tests/test_calculadora.o: tests/test_calculadora.cpp.o
+
+.PHONY : tests/test_calculadora.o
+
+# target to build an object file
+tests/test_calculadora.cpp.o:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o
+.PHONY : tests/test_calculadora.cpp.o
+
+tests/test_calculadora.i: tests/test_calculadora.cpp.i
+
+.PHONY : tests/test_calculadora.i
+
+# target to preprocess a source file
+tests/test_calculadora.cpp.i:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.i
+.PHONY : tests/test_calculadora.cpp.i
+
+tests/test_calculadora.s: tests/test_calculadora.cpp.s
+
+.PHONY : tests/test_calculadora.s
+
+# target to generate assembly for a file
+tests/test_calculadora.cpp.s:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.s
+.PHONY : tests/test_calculadora.cpp.s
+
 tests/test_instruccion.o: tests/test_instruccion.cpp.o
 
 .PHONY : tests/test_instruccion.o
@@ -399,6 +453,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/Calculadora.o"
+	@echo "... src/Calculadora.i"
+	@echo "... src/Calculadora.s"
 	@echo "... src/Instruccion.o"
 	@echo "... src/Instruccion.i"
 	@echo "... src/Instruccion.s"
@@ -414,6 +471,9 @@ help:
 	@echo "... src/Utiles.o"
 	@echo "... src/Utiles.i"
 	@echo "... src/Utiles.s"
+	@echo "... tests/test_calculadora.o"
+	@echo "... tests/test_calculadora.i"
+	@echo "... tests/test_calculadora.s"
 	@echo "... tests/test_instruccion.o"
 	@echo "... tests/test_instruccion.i"
 	@echo "... tests/test_instruccion.s"

@@ -1,4 +1,4 @@
-/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/enzo/CLionProjects/TP1-AED2
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/lucas/TP1-AED2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/enzo/CLionProjects/TP1-AED2
+-- Build files have been written to: /home/lucas/TP1-AED2

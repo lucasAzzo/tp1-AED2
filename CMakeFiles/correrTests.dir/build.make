@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/enzo/CLionProjects/TP1-AED2
+CMAKE_SOURCE_DIR = /home/lucas/TP1-AED2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/enzo/CLionProjects/TP1-AED2
+CMAKE_BINARY_DIR = /home/lucas/TP1-AED2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/correrTests.dir/depend.make
@@ -57,18 +57,42 @@ include CMakeFiles/correrTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/correrTests.dir/flags.make
 
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o: CMakeFiles/correrTests.dir/flags.make
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o: tests/test_calculadora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o -c /home/lucas/TP1-AED2/tests/test_calculadora.cpp
+
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/tests/test_calculadora.cpp > CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.i
+
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/tests/test_calculadora.cpp -o CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.s
+
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.requires:
+
+.PHONY : CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.requires
+
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.provides: CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.requires
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.provides.build
+.PHONY : CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.provides
+
+CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.provides.build: CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o
+
+
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o: tests/test_instruccion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/tests/test_instruccion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o -c /home/lucas/TP1-AED2/tests/test_instruccion.cpp
 
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/tests/test_instruccion.cpp > CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/tests/test_instruccion.cpp > CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.i
 
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/tests/test_instruccion.cpp -o CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/tests/test_instruccion.cpp -o CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.s
 
 CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o.requires:
 
@@ -83,16 +107,16 @@ CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.o: tests/test_programa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/correrTests.dir/tests/test_programa.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/tests/test_programa.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/tests/test_programa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/correrTests.dir/tests/test_programa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/tests/test_programa.cpp.o -c /home/lucas/TP1-AED2/tests/test_programa.cpp
 
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/tests/test_programa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/tests/test_programa.cpp > CMakeFiles/correrTests.dir/tests/test_programa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/tests/test_programa.cpp > CMakeFiles/correrTests.dir/tests/test_programa.cpp.i
 
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/tests/test_programa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/tests/test_programa.cpp -o CMakeFiles/correrTests.dir/tests/test_programa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/tests/test_programa.cpp -o CMakeFiles/correrTests.dir/tests/test_programa.cpp.s
 
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.o.requires:
 
@@ -105,18 +129,42 @@ CMakeFiles/correrTests.dir/tests/test_programa.cpp.o.provides: CMakeFiles/correr
 CMakeFiles/correrTests.dir/tests/test_programa.cpp.o.provides.build: CMakeFiles/correrTests.dir/tests/test_programa.cpp.o
 
 
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.o: CMakeFiles/correrTests.dir/flags.make
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.o: src/Calculadora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/correrTests.dir/src/Calculadora.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Calculadora.cpp.o -c /home/lucas/TP1-AED2/src/Calculadora.cpp
+
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Calculadora.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Calculadora.cpp > CMakeFiles/correrTests.dir/src/Calculadora.cpp.i
+
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Calculadora.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Calculadora.cpp -o CMakeFiles/correrTests.dir/src/Calculadora.cpp.s
+
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.requires:
+
+.PHONY : CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.requires
+
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.provides: CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.requires
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.provides.build
+.PHONY : CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.provides
+
+CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.provides.build: CMakeFiles/correrTests.dir/src/Calculadora.cpp.o
+
+
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.o: src/Instruccion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/correrTests.dir/src/Instruccion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Instruccion.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/src/Instruccion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/correrTests.dir/src/Instruccion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Instruccion.cpp.o -c /home/lucas/TP1-AED2/src/Instruccion.cpp
 
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Instruccion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/src/Instruccion.cpp > CMakeFiles/correrTests.dir/src/Instruccion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Instruccion.cpp > CMakeFiles/correrTests.dir/src/Instruccion.cpp.i
 
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Instruccion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/src/Instruccion.cpp -o CMakeFiles/correrTests.dir/src/Instruccion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Instruccion.cpp -o CMakeFiles/correrTests.dir/src/Instruccion.cpp.s
 
 CMakeFiles/correrTests.dir/src/Instruccion.cpp.o.requires:
 
@@ -131,16 +179,16 @@ CMakeFiles/correrTests.dir/src/Instruccion.cpp.o.provides.build: CMakeFiles/corr
 
 CMakeFiles/correrTests.dir/src/Pila.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/src/Pila.cpp.o: src/Pila.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/correrTests.dir/src/Pila.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Pila.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/src/Pila.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/correrTests.dir/src/Pila.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Pila.cpp.o -c /home/lucas/TP1-AED2/src/Pila.cpp
 
 CMakeFiles/correrTests.dir/src/Pila.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Pila.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/src/Pila.cpp > CMakeFiles/correrTests.dir/src/Pila.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Pila.cpp > CMakeFiles/correrTests.dir/src/Pila.cpp.i
 
 CMakeFiles/correrTests.dir/src/Pila.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Pila.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/src/Pila.cpp -o CMakeFiles/correrTests.dir/src/Pila.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Pila.cpp -o CMakeFiles/correrTests.dir/src/Pila.cpp.s
 
 CMakeFiles/correrTests.dir/src/Pila.cpp.o.requires:
 
@@ -155,16 +203,16 @@ CMakeFiles/correrTests.dir/src/Pila.cpp.o.provides.build: CMakeFiles/correrTests
 
 CMakeFiles/correrTests.dir/src/Programa.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/src/Programa.cpp.o: src/Programa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/correrTests.dir/src/Programa.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Programa.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/src/Programa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/correrTests.dir/src/Programa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Programa.cpp.o -c /home/lucas/TP1-AED2/src/Programa.cpp
 
 CMakeFiles/correrTests.dir/src/Programa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Programa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/src/Programa.cpp > CMakeFiles/correrTests.dir/src/Programa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Programa.cpp > CMakeFiles/correrTests.dir/src/Programa.cpp.i
 
 CMakeFiles/correrTests.dir/src/Programa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Programa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/src/Programa.cpp -o CMakeFiles/correrTests.dir/src/Programa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Programa.cpp -o CMakeFiles/correrTests.dir/src/Programa.cpp.s
 
 CMakeFiles/correrTests.dir/src/Programa.cpp.o.requires:
 
@@ -179,16 +227,16 @@ CMakeFiles/correrTests.dir/src/Programa.cpp.o.provides.build: CMakeFiles/correrT
 
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o: src/Rutina.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/correrTests.dir/src/Rutina.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Rutina.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/src/Rutina.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/correrTests.dir/src/Rutina.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Rutina.cpp.o -c /home/lucas/TP1-AED2/src/Rutina.cpp
 
 CMakeFiles/correrTests.dir/src/Rutina.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Rutina.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/src/Rutina.cpp > CMakeFiles/correrTests.dir/src/Rutina.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Rutina.cpp > CMakeFiles/correrTests.dir/src/Rutina.cpp.i
 
 CMakeFiles/correrTests.dir/src/Rutina.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Rutina.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/src/Rutina.cpp -o CMakeFiles/correrTests.dir/src/Rutina.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Rutina.cpp -o CMakeFiles/correrTests.dir/src/Rutina.cpp.s
 
 CMakeFiles/correrTests.dir/src/Rutina.cpp.o.requires:
 
@@ -203,16 +251,16 @@ CMakeFiles/correrTests.dir/src/Rutina.cpp.o.provides.build: CMakeFiles/correrTes
 
 CMakeFiles/correrTests.dir/src/Utiles.cpp.o: CMakeFiles/correrTests.dir/flags.make
 CMakeFiles/correrTests.dir/src/Utiles.cpp.o: src/Utiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/correrTests.dir/src/Utiles.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Utiles.cpp.o -c /home/enzo/CLionProjects/TP1-AED2/src/Utiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/correrTests.dir/src/Utiles.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/correrTests.dir/src/Utiles.cpp.o -c /home/lucas/TP1-AED2/src/Utiles.cpp
 
 CMakeFiles/correrTests.dir/src/Utiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/correrTests.dir/src/Utiles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enzo/CLionProjects/TP1-AED2/src/Utiles.cpp > CMakeFiles/correrTests.dir/src/Utiles.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/TP1-AED2/src/Utiles.cpp > CMakeFiles/correrTests.dir/src/Utiles.cpp.i
 
 CMakeFiles/correrTests.dir/src/Utiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/correrTests.dir/src/Utiles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enzo/CLionProjects/TP1-AED2/src/Utiles.cpp -o CMakeFiles/correrTests.dir/src/Utiles.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/TP1-AED2/src/Utiles.cpp -o CMakeFiles/correrTests.dir/src/Utiles.cpp.s
 
 CMakeFiles/correrTests.dir/src/Utiles.cpp.o.requires:
 
@@ -227,8 +275,10 @@ CMakeFiles/correrTests.dir/src/Utiles.cpp.o.provides.build: CMakeFiles/correrTes
 
 # Object files for target correrTests
 correrTests_OBJECTS = \
+"CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o" \
 "CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o" \
 "CMakeFiles/correrTests.dir/tests/test_programa.cpp.o" \
+"CMakeFiles/correrTests.dir/src/Calculadora.cpp.o" \
 "CMakeFiles/correrTests.dir/src/Instruccion.cpp.o" \
 "CMakeFiles/correrTests.dir/src/Pila.cpp.o" \
 "CMakeFiles/correrTests.dir/src/Programa.cpp.o" \
@@ -238,8 +288,10 @@ correrTests_OBJECTS = \
 # External object files for target correrTests
 correrTests_EXTERNAL_OBJECTS =
 
+correrTests: CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o
 correrTests: CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o
 correrTests: CMakeFiles/correrTests.dir/tests/test_programa.cpp.o
+correrTests: CMakeFiles/correrTests.dir/src/Calculadora.cpp.o
 correrTests: CMakeFiles/correrTests.dir/src/Instruccion.cpp.o
 correrTests: CMakeFiles/correrTests.dir/src/Pila.cpp.o
 correrTests: CMakeFiles/correrTests.dir/src/Programa.cpp.o
@@ -250,7 +302,7 @@ correrTests: tests/google-test/libgtest.a
 correrTests: tests/google-test/libgtest_main.a
 correrTests: tests/google-test/libgtest.a
 correrTests: CMakeFiles/correrTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enzo/CLionProjects/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable correrTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/TP1-AED2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable correrTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/correrTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,8 +310,10 @@ CMakeFiles/correrTests.dir/build: correrTests
 
 .PHONY : CMakeFiles/correrTests.dir/build
 
+CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/tests/test_calculadora.cpp.o.requires
 CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/tests/test_instruccion.cpp.o.requires
 CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/tests/test_programa.cpp.o.requires
+CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/src/Calculadora.cpp.o.requires
 CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/src/Instruccion.cpp.o.requires
 CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/src/Pila.cpp.o.requires
 CMakeFiles/correrTests.dir/requires: CMakeFiles/correrTests.dir/src/Programa.cpp.o.requires
@@ -273,6 +327,6 @@ CMakeFiles/correrTests.dir/clean:
 .PHONY : CMakeFiles/correrTests.dir/clean
 
 CMakeFiles/correrTests.dir/depend:
-	cd /home/enzo/CLionProjects/TP1-AED2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/enzo/CLionProjects/TP1-AED2 /home/enzo/CLionProjects/TP1-AED2 /home/enzo/CLionProjects/TP1-AED2 /home/enzo/CLionProjects/TP1-AED2 /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/correrTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucas/TP1-AED2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucas/TP1-AED2 /home/lucas/TP1-AED2 /home/lucas/TP1-AED2 /home/lucas/TP1-AED2 /home/lucas/TP1-AED2/CMakeFiles/correrTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/correrTests.dir/depend
 

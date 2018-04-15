@@ -14,9 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bace393e-831e-41dd-a0d6-bfa7be9abb7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pila.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utiles.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_calculadora.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/3.10.3/CMakeCCompiler.cmake" afterDir="false" />
@@ -36,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/correrTests.dir/progress.make" afterDir="false" />
@@ -47,13 +46,8 @@
       <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/correrTests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solucion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/solucion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instruccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruccion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instruccion.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruccion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pila.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pila.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programa.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programa.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programa.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rutina.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rutina.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rutina.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rutina.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pila.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pila.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utiles.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utiles.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utiles.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utiles.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/google-test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google-test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/google-test/CMakeFiles/gtest.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google-test/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
@@ -71,8 +65,6 @@
       <change beforePath="$PROJECT_DIR$/tests/google-test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google-test/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/google-test/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google-test/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/google-test/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google-test/gtest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_instruccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_instruccion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_programa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_programa.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/tests/google-test/CMakeFiles/" />
@@ -89,8 +81,8 @@
       <file leaf-file-name="Utiles.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Utiles.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="450">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#35#52#0" expanded="true" />
               </folding>
@@ -98,41 +90,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utiles.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utiles.cpp">
+      <file leaf-file-name="Calculadora.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculadora.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rutina.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rutina.cpp">
+      <file leaf-file-name="Calculadora.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Calculadora.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pila.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pila.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Programa.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Programa.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
-                <element signature="e#46#63#0" expanded="true" />
+                <element signature="e#84#105#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instruccion.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Instruccion.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instruccion.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Instruccion.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -140,32 +132,8 @@
       <file leaf-file-name="Programa.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Programa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_programa.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_programa.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_instruccion.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_instruccion.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -173,20 +141,26 @@
       <file leaf-file-name="Pila.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pila.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rutina.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rutina.h">
+      <file leaf-file-name="Pila.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pila.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utiles.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Utiles.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -220,20 +194,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/BakPila.h" />
         <option value="$PROJECT_DIR$/src/Pila.hpp" />
-        <option value="$PROJECT_DIR$/src/Pila.cpp" />
         <option value="$PROJECT_DIR$/src/TodosLosHeaders.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/Instruccion.cpp" />
-        <option value="$PROJECT_DIR$/src/Utiles.h" />
-        <option value="$PROJECT_DIR$/src/Pila.h" />
         <option value="$PROJECT_DIR$/src/Instruccion.h" />
         <option value="$PROJECT_DIR$/src/Programa.h" />
-        <option value="$PROJECT_DIR$/src/Utiles.cpp" />
         <option value="$PROJECT_DIR$/src/Rutina.h" />
         <option value="$PROJECT_DIR$/src/Rutina.cpp" />
         <option value="$PROJECT_DIR$/tests/test_programa.cpp" />
         <option value="$PROJECT_DIR$/tests/test_instruccion.cpp" />
         <option value="$PROJECT_DIR$/src/Programa.cpp" />
+        <option value="$PROJECT_DIR$/src/Calculadora.cpp" />
+        <option value="$PROJECT_DIR$/src/Calculadora.h" />
+        <option value="$PROJECT_DIR$/tests/test_calculadora.cpp" />
+        <option value="$PROJECT_DIR$/src/Pila.cpp" />
+        <option value="$PROJECT_DIR$/src/Pila.h" />
+        <option value="$PROJECT_DIR$/src/Utiles.h" />
+        <option value="$PROJECT_DIR$/src/Utiles.cpp" />
       </list>
     </option>
   </component>
@@ -246,7 +223,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1" />
     <option name="width" value="1922" />
     <option name="height" value="1053" />
@@ -262,6 +239,16 @@
             <path>
               <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP1-AED2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP1-AED2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solucion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP1-AED2" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,6 +299,7 @@
       <updated>1523702008746</updated>
       <workItem from="1523702010192" duration="12161000" />
       <workItem from="1523731821894" duration="13307000" />
+      <workItem from="1523789768224" duration="7052000" />
     </task>
     <servers />
   </component>
@@ -334,31 +322,35 @@
     <history-entry file="correrTests - 2018.04.14 at 19h 36m 46s.xml">
       <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="correrTests - 2018.04.15 at 07h 58m 13s.xml">
+      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25468000" />
+    <option name="totallyTimeSpent" value="32520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="25" width="1321" height="743" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.41390204" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.41368422" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3949447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3949447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +369,70 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Utiles.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#35#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rutina.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programa.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_programa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pila.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rutina.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_instruccion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utiles.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -413,7 +469,7 @@
         <state relative-caret-position="540">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
           <folding>
-            <element signature="e#46#63#0" expanded="true" />
+            <element signature="e#39#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,28 +488,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pila.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-            <element signature="e#113#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodosLosHeaders.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pila.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/TodosLosHeaders.h" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_programa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rutina.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rutina.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programa.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#39#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_instruccion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Programa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -464,34 +555,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Instruccion.h">
+    <entry file="file://$PROJECT_DIR$/src/Calculadora.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="435">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#84#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pila.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Instruccion.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculadora.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pila.h">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_calculadora.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pila.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utiles.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="450">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#35#52#0" expanded="true" />
           </folding>
@@ -500,59 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utiles.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rutina.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rutina.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_programa.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programa.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="e#46#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Programa.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_instruccion.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>

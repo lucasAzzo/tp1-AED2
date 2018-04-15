@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp
+Change Dir: /home/lucas/TP1-AED2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd04a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd04a.dir/build.make CMakeFiles/cmTC_bd04a.dir/build
-make[1]: se entra en el directorio '/home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd04a.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bd04a.dir/CheckSymbolExists.c.o   -c /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bd04a
-/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd04a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd04a.dir/CheckSymbolExists.c.o  -o cmTC_bd04a 
-CMakeFiles/cmTC_bd04a.dir/CheckSymbolExists.c.o: En la función `main':
-CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+Run Build Command:"/usr/bin/make" "cmTC_5356b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5356b.dir/build.make CMakeFiles/cmTC_5356b.dir/build
+make[1]: Entering directory '/home/lucas/TP1-AED2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5356b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5356b.dir/CheckSymbolExists.c.o   -c /home/lucas/TP1-AED2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5356b
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5356b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5356b.dir/CheckSymbolExists.c.o  -o cmTC_5356b 
+CMakeFiles/cmTC_5356b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bd04a.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_bd04a'
-make[1]: *** [cmTC_bd04a] Error 1
-make[1]: se sale del directorio '/home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_bd04a/fast'
-make: *** [cmTC_bd04a/fast] Error 2
+CMakeFiles/cmTC_5356b.dir/build.make:97: recipe for target 'cmTC_5356b' failed
+make[1]: *** [cmTC_5356b] Error 1
+make[1]: Leaving directory '/home/lucas/TP1-AED2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5356b/fast' failed
+make: *** [cmTC_5356b/fast] Error 2
 
-File /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/lucas/TP1-AED2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp
+Change Dir: /home/lucas/TP1-AED2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7893c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7893c.dir/build.make CMakeFiles/cmTC_7893c.dir/build
-make[1]: se entra en el directorio '/home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7893c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7893c.dir/CheckFunctionExists.c.o   -c /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7893c
-/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7893c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7893c.dir/CheckFunctionExists.c.o  -o cmTC_7893c -lpthreads 
-/usr/bin/ld: no se puede encontrar -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_e0a2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0a2e.dir/build.make CMakeFiles/cmTC_e0a2e.dir/build
+make[1]: Entering directory '/home/lucas/TP1-AED2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0a2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e0a2e.dir/CheckFunctionExists.c.o   -c /opt/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0a2e
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0a2e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e0a2e.dir/CheckFunctionExists.c.o  -o cmTC_e0a2e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7893c.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_7893c'
-make[1]: *** [cmTC_7893c] Error 1
-make[1]: se sale del directorio '/home/enzo/CLionProjects/TP1-AED2/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_7893c/fast'
-make: *** [cmTC_7893c/fast] Error 2
+CMakeFiles/cmTC_e0a2e.dir/build.make:97: recipe for target 'cmTC_e0a2e' failed
+make[1]: *** [cmTC_e0a2e] Error 1
+make[1]: Leaving directory '/home/lucas/TP1-AED2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0a2e/fast' failed
+make: *** [cmTC_e0a2e/fast] Error 2
 
 
