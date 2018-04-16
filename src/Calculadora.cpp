@@ -15,6 +15,7 @@ void Calculadora::ejecutar(Id idRutina) {
             for (int j = 0; j < _programa.longitud(idRutina); j++) {
                 ejecutarInstruccion(_programa.instruccion(idRutina, j));
             }
+            _finalizar = true;
         }
     }
 }
