@@ -3,11 +3,7 @@
 
 #include <vector>
 #include <string>
-#include "Instruccion.h"
-#include "Utiles.h"
 #include "Rutina.h"
-
-using namespace std;
 
 class Programa {
 public:
@@ -33,8 +29,9 @@ public:
     // Precondición:
     //   esRutinaExistente(idRutina) && 0 <= i && i < longitud(idRutina)
     Instruccion instruccion(Id idRutina, int i) const;
+
 private:
-    vector<Rutina> _rutinas;
+    std::vector<Rutina> _rutinas;
 };
 
 #endif

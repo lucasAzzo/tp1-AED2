@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucas/TP1-AED2
+CMAKE_SOURCE_DIR = /home/enzo/CLionProjects/TP1-AED2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucas/TP1-AED2
+CMAKE_BINARY_DIR = /home/enzo/CLionProjects/TP1-AED2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/lucas/TP1-AED2
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -116,7 +116,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/enzo/Descargas/CLion-2018.1.1/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas/TP1-AED2/CMakeFiles /home/lucas/TP1-AED2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enzo/CLionProjects/TP1-AED2/CMakeFiles /home/enzo/CLionProjects/TP1-AED2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas/TP1-AED2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enzo/CLionProjects/TP1-AED2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -249,6 +249,33 @@ src/Instruccion.cpp.s:
 	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Instruccion.cpp.s
 .PHONY : src/Instruccion.cpp.s
 
+src/Memoria.o: src/Memoria.cpp.o
+
+.PHONY : src/Memoria.o
+
+# target to build an object file
+src/Memoria.cpp.o:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Memoria.cpp.o
+.PHONY : src/Memoria.cpp.o
+
+src/Memoria.i: src/Memoria.cpp.i
+
+.PHONY : src/Memoria.i
+
+# target to preprocess a source file
+src/Memoria.cpp.i:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Memoria.cpp.i
+.PHONY : src/Memoria.cpp.i
+
+src/Memoria.s: src/Memoria.cpp.s
+
+.PHONY : src/Memoria.s
+
+# target to generate assembly for a file
+src/Memoria.cpp.s:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Memoria.cpp.s
+.PHONY : src/Memoria.cpp.s
+
 src/Pila.o: src/Pila.cpp.o
 
 .PHONY : src/Pila.o
@@ -330,32 +357,32 @@ src/Rutina.cpp.s:
 	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Rutina.cpp.s
 .PHONY : src/Rutina.cpp.s
 
-src/Utiles.o: src/Utiles.cpp.o
+src/Variable.o: src/Variable.cpp.o
 
-.PHONY : src/Utiles.o
+.PHONY : src/Variable.o
 
 # target to build an object file
-src/Utiles.cpp.o:
-	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Utiles.cpp.o
-.PHONY : src/Utiles.cpp.o
+src/Variable.cpp.o:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Variable.cpp.o
+.PHONY : src/Variable.cpp.o
 
-src/Utiles.i: src/Utiles.cpp.i
+src/Variable.i: src/Variable.cpp.i
 
-.PHONY : src/Utiles.i
+.PHONY : src/Variable.i
 
 # target to preprocess a source file
-src/Utiles.cpp.i:
-	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Utiles.cpp.i
-.PHONY : src/Utiles.cpp.i
+src/Variable.cpp.i:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Variable.cpp.i
+.PHONY : src/Variable.cpp.i
 
-src/Utiles.s: src/Utiles.cpp.s
+src/Variable.s: src/Variable.cpp.s
 
-.PHONY : src/Utiles.s
+.PHONY : src/Variable.s
 
 # target to generate assembly for a file
-src/Utiles.cpp.s:
-	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Utiles.cpp.s
-.PHONY : src/Utiles.cpp.s
+src/Variable.cpp.s:
+	$(MAKE) -f CMakeFiles/correrTests.dir/build.make CMakeFiles/correrTests.dir/src/Variable.cpp.s
+.PHONY : src/Variable.cpp.s
 
 tests/test_calculadora.o: tests/test_calculadora.cpp.o
 
@@ -459,6 +486,9 @@ help:
 	@echo "... src/Instruccion.o"
 	@echo "... src/Instruccion.i"
 	@echo "... src/Instruccion.s"
+	@echo "... src/Memoria.o"
+	@echo "... src/Memoria.i"
+	@echo "... src/Memoria.s"
 	@echo "... src/Pila.o"
 	@echo "... src/Pila.i"
 	@echo "... src/Pila.s"
@@ -468,9 +498,9 @@ help:
 	@echo "... src/Rutina.o"
 	@echo "... src/Rutina.i"
 	@echo "... src/Rutina.s"
-	@echo "... src/Utiles.o"
-	@echo "... src/Utiles.i"
-	@echo "... src/Utiles.s"
+	@echo "... src/Variable.o"
+	@echo "... src/Variable.i"
+	@echo "... src/Variable.s"
 	@echo "... tests/test_calculadora.o"
 	@echo "... tests/test_calculadora.i"
 	@echo "... tests/test_calculadora.s"

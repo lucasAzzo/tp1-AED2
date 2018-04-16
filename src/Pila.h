@@ -1,18 +1,15 @@
 #ifndef PILA_H
 #define PILA_H
 
-#include "Utiles.h"
 #include <vector>
-
-using namespace std;
 
 class Pila  {
 public:
     Pila(); //crear una pila vacia
-    void apilar(Pila &pila, int elemento); //apilar un elemento (push)
-    int desapilar(Pila &pila); //agarrar el ultimo elemento de la pila (pop)
+    void apilar(int elemento); //apilar un elemento
+    int desapilar(); //saca el ultimo elemento de la pila y lo devuelve
 private:
-    vector<int> _elementos;
+    std::vector<int> _elementos;
 };
 
 #endif

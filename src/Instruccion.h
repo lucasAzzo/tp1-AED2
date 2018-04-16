@@ -1,5 +1,6 @@
 #ifndef INSTRUCCION_H
 #define INSTRUCCION_H
+
 #include "Utiles.h"
 
 class Instruccion {

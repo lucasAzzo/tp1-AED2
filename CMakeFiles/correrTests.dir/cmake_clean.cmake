@@ -4,10 +4,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/correrTests.dir/tests/test_programa.cpp.o"
   "CMakeFiles/correrTests.dir/src/Calculadora.cpp.o"
   "CMakeFiles/correrTests.dir/src/Instruccion.cpp.o"
+  "CMakeFiles/correrTests.dir/src/Memoria.cpp.o"
   "CMakeFiles/correrTests.dir/src/Pila.cpp.o"
   "CMakeFiles/correrTests.dir/src/Programa.cpp.o"
   "CMakeFiles/correrTests.dir/src/Rutina.cpp.o"
-  "CMakeFiles/correrTests.dir/src/Utiles.cpp.o"
+  "CMakeFiles/correrTests.dir/src/Variable.cpp.o"
   "correrTests.pdb"
   "correrTests"
 )

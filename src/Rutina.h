@@ -5,13 +5,13 @@
 
 class Rutina {
 public:
-    Rutina(Id id, vector<Instruccion> instrucciones);
-    vector<Instruccion> devolverInstrucciones() const;
+    Rutina(Id id, std::vector<Instruccion> instrucciones);
+    std::vector<Instruccion> devolverInstrucciones() const;
     Id devolverId() const ;
     void agregarInstruccion(Instruccion instruccion);
 private:
     Id _id;
-    vector<Instruccion> _instrucciones;
+    std::vector<Instruccion> _instrucciones;
 };
 
 #endif

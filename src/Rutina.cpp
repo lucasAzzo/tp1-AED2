@@ -1,11 +1,11 @@
 #include "Rutina.h"
 
-Rutina::Rutina(Id id, vector<Instruccion> instrucciones){
+Rutina::Rutina(Id id, std::vector<Instruccion> instrucciones){
     _id = id;
     _instrucciones = instrucciones;
 }
 
-vector<Instruccion> Rutina::devolverInstrucciones() const {
+std::vector<Instruccion> Rutina::devolverInstrucciones() const {
     return _instrucciones;
 }
 

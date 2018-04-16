@@ -14,7 +14,7 @@ void Programa::agregarInstruccion(Id idRutina, Instruccion instruccion) {
     }
     else
     {
-        vector<Instruccion> instrucciones;
+        std::vector<Instruccion> instrucciones;
         instrucciones.push_back(instruccion);
         Rutina nuevaRutina = Rutina(idRutina, instrucciones);
         _rutinas.push_back(nuevaRutina);

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lucas/TP1-AED2/tests/google-test/src/gtest_main.cc
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/home/lucas/TP1-AED2/tests/google-test/src/gtest/gtest.h
+/home/enzo/CLionProjects/TP1-AED2/tests/google-test/src/gtest/gtest.h
 
 tests/google-test/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
